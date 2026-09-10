@@ -36,6 +36,7 @@ cv:
       - title: "SAFE ma-QAOA: Surrogate-Assisted and Fine-Tuning Enhanced Multi-Angle QAOA with Parameter Distillation"
         authors:
           - Youngseok Lee
+          - Hyunwoo Kim
         publisher: IEEE International Conference on Quantum Computing and Engineering (QCE26), contributed talk, accepted
         releaseDate: "2026"
 
