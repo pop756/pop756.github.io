@@ -1,5 +1,7 @@
 cv:
   name: Youngseok Lee
+  location: Seoul, Republic of Korea
+  email: pop756@g.skku.edu
 
   social_networks:
     - network: GitHub
@@ -7,22 +9,46 @@ cv:
 
   sections:
     Education:
-      # TODO: add start_date / end_date (years)
-      - institution: Sungkyunkwan University
+      - institution: Sungkyunkwan University (SKKU)
         area: Nano Engineering
         studyType: B.S.
+        location: Suwon, Republic of Korea
+        start_date: 2018-03
+        end_date: 2024-08
+        highlights:
+          - "GPA 4.22 / 4.5 (major GPA 4.31 / 4.5); Dean's List, Fall 2022 and Spring 2023."
+          - "Relevant courses: Quantum Mechanics I, Quantum Physics and Quantum Information, Quantum Engineering, Understanding Quantum Computers, Introduction to Solid State Physics, Computational Simulation of Material Properties, Engineering Numerical Analysis, AI and Digital Mathematics."
 
     Experience:
-      # TODO: add start_date (YYYY-MM)
+      # TODO: add start_date (YYYY-MM). The draft CV lists "April 2026 – July 2026", which conflicts with
+      # the Jan–Apr 2026 mentoring and the current NORMA affiliation, so dates are left out for now.
       - company: NORMA Inc.
         position: Quantum AI Developer, Quantum AI Team
+        location: Seoul, Republic of Korea
         summary: Research and development of quantum machine learning models and the classical simulation tools used to train them.
         highlights:
-          - Co-developed and maintain PADO-Pauli, a GPU-accelerated differentiable Pauli-propagation surrogate engine (Python package padopauli).
-          - Proposed and analyzed mixed IQP-QCBMs, ancilla-extended IQP generative models with provable barren-plateau avoidance and a cluster initialization scheme.
-          - Developed SAFE ma-QAOA, a surrogate-assisted, parameter-distilled multi-angle QAOA pipeline with exact fine-tuning.
-          - Applied QGAN and IQP-QCBM models to molecular generation for KRAS G12D inhibitor candidates, including experiments on Quantinuum H2 and IonQ Forte.
+          - Co-developed and maintain PADO-Pauli, a GPU-accelerated differentiable Pauli-propagation engine for large-scale circuit simulation and training (40–120 qubits), shipped as the Python package padopauli.
+          - Proposed and analyzed mixed IQP-QCBMs, ancilla-extended IQP generative models with provable barren-plateau avoidance and a cluster initialization scheme; deployed 42-qubit mixed IQP Born machines on the Quantinuum H2 trapped-ion quantum computer.
+          - Developed SAFE ma-QAOA, a surrogate-assisted, parameter-distilled multi-angle QAOA pipeline with exact fine-tuning (QCE26 oral).
+          - Applied QGAN and IQP-QCBM models to molecular generation for KRAS G12D inhibitor candidates, with QAOA experiments on IonQ Forte.
           - Contributed to an in-house quantum SDK (circuit representation, user API, circuit output and visualization).
+
+      - company: Qunova Computing
+        position: Research Intern
+        location: Daejeon, Republic of Korea
+        start_date: 2023-10
+        end_date: 2024-02
+        highlights:
+          - Designed a tensor-network-based machine learning model for drug toxicity prediction.
+
+      - company: Superconducting Quantum Computing Lab (Prof. Yonuk Chong), Sungkyunkwan University
+        position: Undergraduate Researcher
+        location: Suwon, Republic of Korea
+        start_date: 2021-03
+        end_date: 2023-10
+        highlights:
+          - Pulse-level control of superconducting qubits, including gate implementation and calibration experiments.
+          - Superconducting qubit measurement and characterization, such as qubit frequency and coherence-time measurements.
 
     Publications:
       - title: Trainability and Mode Separation of Mixed IQP-QCBMs
@@ -37,25 +63,56 @@ cv:
         authors:
           - Youngseok Lee
           - Hyunwoo Kim
-        publisher: IEEE International Conference on Quantum Computing and Engineering (QCE26), contributed talk, accepted
+        publisher: IEEE International Conference on Quantum Computing and Engineering (QCE26), accepted
         releaseDate: "2026"
 
       - title: "PADO-Pauli: A GPU-Accelerated Implementation of Pauli Propagation"
         authors:
           - Hyunwoo Kim
           - Youngseok Lee
-        publisher: Software, Zenodo DOI 10.5281/zenodo.22627344; poster accepted at QCE26
+        publisher: Software, Zenodo DOI 10.5281/zenodo.22627344
         releaseDate: 2026-09-07
         url: https://github.com/Norma-Q/PADO-Pauli
 
-    Talks:
-      - bullet: "**SAFE ma-QAOA**, contributed talk (accepted), IEEE Quantum Week 2026 (QCE26), Toronto, Canada, September 13–18, 2026."
-      - bullet: "**PADO-Pauli**, poster (accepted), IEEE Quantum Week 2026 (QCE26), Toronto, Canada, September 13–18, 2026."
-      - bullet: "**Trainability and Mode Separation of Mixed IQP Circuits**, contributed talk, [ML4QT Symposium](https://uwaterloo.ca/institute-for-quantum-computing/events/ml4qt-symposium-machine-learning-advance-quantum), Institute for Quantum Computing, University of Waterloo, September 23–25, 2026."
+    Conference Presentations:
+      - bullet: "**SAFE ma-QAOA: Surrogate-Assisted and Fine-Tuning Enhanced Multi-Angle QAOA with Parameter Distillation.** Oral presentation, QALG track, IEEE Quantum Week 2026 (QCE26), Toronto, Canada, September 13–18, 2026 (scheduled)."
+      - bullet: "**PADO-Pauli.** Poster, IEEE Quantum Week 2026 (QCE26), Toronto, Canada, September 13–18, 2026 (scheduled)."
+      - bullet: "**Trainability and Mode Separation of Mixed IQP Circuits.** Contributed talk, [ML4QT Symposium](https://uwaterloo.ca/institute-for-quantum-computing/events/ml4qt-symposium-machine-learning-advance-quantum), Institute for Quantum Computing, University of Waterloo, September 23–25, 2026 (scheduled)."
+      - bullet: "**PADO-Pauli: A GPU-Accelerated Implementation of Pauli Propagation.** Poster, Conference on Quantum Information (CQI 2026), Seoul, Republic of Korea, July 2026."
+      - bullet: "**Two Approaches of Potential Quantum Advantage with Quantum Generative Models in Drug Discovery.** Poster, QISK Annual Meeting 2026, Seoul, Republic of Korea, February 2026."
 
     Patents:
       - bullet: "**Quantum Computing Method Using a Pauli Graph Generated by Zero Filtering to Perform Surrogate Operations and Quantum Computing System Performing the Same.** Korean patent, application no. 10-2026-0070495 (filed 2026-04-20), registered. Applicant: NORMA Inc."
       - bullet: "**Quantum Artificial Intelligence Training Method Performing Surrogate Training Using Pauli Graphs and Quantum Artificial Intelligence Training System Performing the Same.** Korean patent, application no. 10-2026-0070494 (filed 2026-04-20), registered. Applicant: NORMA Inc."
+
+    Honors and Awards:
+      - title: Finalist, Pasqal Quantum AI for Sustainability Challenge
+        authors:
+          - Team Qorea
+        date: 2025-03
+        awarder: Pasqal
+        summary: Selected as one of 15 finalist teams out of 137 global submissions for a renewable-energy portfolio optimization framework using quantum-classical reinforcement learning.
+
+      - title: Center Director's Award, 2024 Quantum Information Competition (Hackathon)
+        authors:
+          - Team Qurious
+        date: 2024-06
+        awarder: Quantum Information Research Support Center; hosted by the Ministry of Science and ICT, Korea
+        summary: Applied Neural Quantum Embedding (NQE) to time-series learning by combining it with a quantum GRU (QGRU), outperforming a classical GRU baseline in weather-forecasting accuracy.
+
+      - title: Honorable Mention, ACM/IEEE Quantum Computing on Drug Discovery Challenge, ICCAD 2023
+        authors:
+          - Team Quantum Korea
+        date: 2023-10
+        awarder: ACM/IEEE ICCAD 2023
+        summary: Top 8 of 73 registered teams; ranked 1st in accuracy (99.96, highest among 22 submitting teams) and 4th overall, using qubit tapering and reference-state error mitigation (REM) for ground-state energy estimation.
+
+      - title: SKKU President's Award, 2023 Quantum Information Competition (Hackathon)
+        authors:
+          - Team Minchodan
+        date: 2023-06
+        awarder: Hosted by the Ministry of Science and ICT, Korea
+        summary: Applied reference-state error mitigation to Hamiltonian simulation on quantum hardware, exploiting the time-invariance of a known ground state under Hamiltonian evolution to estimate and correct hardware errors for states evolved near the reference.
 
     Research Mentoring:
       - bullet: "Supervised research intern Dohyun Kim (January 19 – April 19, 2026) on *Reinforcement Learning for Adaptive Pauli Propagation*, and wrote a letter of recommendation."
@@ -64,11 +121,17 @@ cv:
       - name: Quantum computing
         level: ""
         icon: fa-solid fa-atom
-        keywords: "IQP circuits, QCBMs, QAOA, VQE, Pauli propagation, barren-plateau analysis, quantum hardware experiments (Quantinuum H2, IonQ Forte)"
-      - name: Software
+        keywords: "Pauli propagation, large-scale circuit simulation (40–120+ qubits), IQP circuits and QCBMs, QAOA, VQE, error mitigation (REM), tensor networks, pulse-level control and characterization of superconducting qubits, hardware experiments (Quantinuum H2, IonQ Forte)"
+      - name: Programming and HPC
         level: ""
         icon: fa-solid fa-code
-        keywords: "Python, PyTorch, GPU computing (CUDA), numerical experiments, benchmarking, quantum SDK development"
+        keywords: "Python, PyTorch, GPU computing (NVIDIA CUDA, AMD ROCm), numerical experiments, benchmarking, quantum SDK development"
+
+    Languages:
+      - name: Korean
+        summary: Native
+      - name: English
+        summary: Fluent
 
     Interests:
       - name: Research interests
