@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://pop756.github.io/sitemap.xml
