@@ -1,3 +1,4 @@
+# RenderCV-format CV data. Rendered on the site at /cv/ and to PDF by .github/workflows/render-cv.yml.
 cv:
   name: Youngseok Lee
   location: Seoul, Republic of Korea
