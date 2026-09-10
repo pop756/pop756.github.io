@@ -48,8 +48,8 @@ cv:
         url: https://github.com/Norma-Q/PADO-Pauli
 
     Talks:
-      - bullet: "**SAFE ma-QAOA**, contributed talk (accepted), IEEE Quantum Week 2026 (QCE26), Toronto, Canada."
-      - bullet: "**PADO-Pauli**, poster (accepted), IEEE Quantum Week 2026 (QCE26), Toronto, Canada."
+      - bullet: "**SAFE ma-QAOA**, contributed talk (accepted), IEEE Quantum Week 2026 (QCE26), Toronto, Canada, September 13–18, 2026."
+      - bullet: "**PADO-Pauli**, poster (accepted), IEEE Quantum Week 2026 (QCE26), Toronto, Canada, September 13–18, 2026."
       - bullet: "**Trainability and Mode Separation of Mixed IQP Circuits**, contributed talk, [ML4QT Symposium](https://uwaterloo.ca/institute-for-quantum-computing/events/ml4qt-symposium-machine-learning-advance-quantum), Institute for Quantum Computing, University of Waterloo, September 23–25, 2026."
 
     Patents:

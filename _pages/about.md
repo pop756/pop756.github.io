@@ -38,6 +38,6 @@ I received my B.S. in Nano Engineering from Sungkyunkwan University.
 
 ## upcoming talks
 
-- **SAFE ma-QAOA** — contributed talk, [IEEE Quantum Week 2026 (QCE26)](https://qce.quantum.ieee.org/2026/), Toronto.
-- **PADO-Pauli** — poster, [IEEE Quantum Week 2026 (QCE26)](https://qce.quantum.ieee.org/2026/), Toronto.
+- **SAFE ma-QAOA** — contributed talk, [IEEE Quantum Week 2026 (QCE26)](https://qce.quantum.ieee.org/2026/), Toronto, September 13–18, 2026.
+- **PADO-Pauli** — poster, [IEEE Quantum Week 2026 (QCE26)](https://qce.quantum.ieee.org/2026/), Toronto, September 13–18, 2026.
 - **Trainability and Mode Separation of Mixed IQP Circuits** — contributed talk, [ML4QT Symposium](https://uwaterloo.ca/institute-for-quantum-computing/events/ml4qt-symposium-machine-learning-advance-quantum), Institute for Quantum Computing, University of Waterloo, September 23–25, 2026.
