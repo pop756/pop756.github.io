@@ -1,7 +1,5 @@
 cv:
   name: Youngseok Lee
-  label: Quantum AI Developer
-  summary: Quantum AI developer at NORMA Inc. working on quantum generative models, variational quantum algorithms, and GPU-accelerated Pauli-propagation simulation. Co-developer of the PADO-Pauli engine and co-inventor on two registered patents on Pauli-graph surrogates.
 
   social_networks:
     - network: GitHub
@@ -39,7 +37,7 @@ cv:
         authors:
           - Youngseok Lee
         publisher: IEEE International Conference on Quantum Computing and Engineering (QCE26), contributed talk, accepted
-        releaseDate: 2026
+        releaseDate: "2026"
 
       - title: "PADO-Pauli: A GPU-Accelerated Implementation of Pauli Propagation"
         authors:
