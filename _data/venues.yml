@@ -1,9 +1,15 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"arXiv":
+  url: https://arxiv.org/abs/2607.27883
+  color: "#b31b1b"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"QCE26":
+  url: https://qce.quantum.ieee.org/2026/
+  color: "#00629b"
 
-"Vision":
-  color: "#009f36"
+"Software":
+  url: https://github.com/Norma-Q/PADO-Pauli
+  color: "#2e7d32"
+
+"Patent":
+  url: https://www.kipris.or.kr/
+  color: "#6a1b9a"
